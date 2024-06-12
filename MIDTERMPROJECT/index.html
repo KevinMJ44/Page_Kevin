@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    <style>
+        body {
+            background-color: #4C1A57;
+            font-family: "Audiowide", sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        @media only screen and (max-width: 600px) {
+            body {
+                background-color: #9A4C95;
+            }
+
+            .navigation-bar {
+                flex-direction: column;
+                align-items: center;
+                margin-left: 0;
+            }
+
+            .separator {
+                display: none;
+            }
+
+            .ImagenPep,
+            .ImagenFin {
+                margin-left: 0;
+                width: 100%;
+                text-align: center;
+            }
+
+            .Artic {
+                margin-left: 0;
+                margin-top: 20px;
+            }
+        }
+
+        #siBack {
+            color: #FF3CC7;
+            font-size: 40px;
+            text-align: center;
+            letter-spacing: 4px;
+        }
+
+       #GaPla {
+    		color: #FF3CC7;
+        	font-size: 5vw; 
+        	position: absolute;
+        	top: 2%; 
+        	left: 50%; 
+        	transform: translateX(-50%); 
+        	text-decoration: underline yellow;
+				}
+
+        #BrowButton {
+            color: yellow;
+            font-size: 12px;
+            background-color: #76259C;
+            width: 200px;
+            height: 10px;
+            position: relative;
+            left: 50%;
+            transform: translateX(-50%);
+            padding: 30px;
+            text-align: center;
+            border-radius: 20px;
+            margin-top: 20px;
+        }
+
+        .navigation-bar {
+            display: flex;
+            justify-content: center;
+            padding: 60px;
+            text-align: center;
+        }
+
+        .nav-item {
+            text-decoration: underline yellow 3px;
+            color: #FF3CC7;
+            letter-spacing: 3px;
+            margin: 0 60px;
+        }
+
+        .separator {
+            margin: 0 10px;
+        }
+
+        .container {
+		    display: grid;
+		    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+		    grid-gap: 20px;
+		    justify-items: center;
+					}
+
+		.ImagenPep, .ImagenFin {
+		    width: 100%;
+		    max-width: 400px;
+		    text-align: center;
+				}
+
+		@media only screen and (min-width: 600px) {
+    	.container {
+        grid-template-columns: repeat(2, 1fr);
+    			}
+			}
+        .desc {
+            text-decoration: underline yellow 3px;
+            text-align: center;
+            color: yellow;
+        }
+
+        .ball-con {
+            display: flex;
+            justify-content: center;
+            margin-top: 80px;
+        }
+
+        .Red-ball,
+        .yellow-ball {
+            display: flex;
+            width: 50px;
+            height: 50px;
+            background-color: darkred;
+            border-radius: 50%;
+            margin-right: 12px;
+        }
+
+        .yellow-ball {
+            background-color: yellow;
+        }
+
+        .Artic {
+            text-align: center;
+            color: yellow;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 50px;
+            width: 80%;
+            max-width: 800px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div><span id="GaPla"> Game Place </span></div>
+        <div class="ball-con">
+            <div class="yellow-ball"></div>
+            <div class="Red-ball"></div>
+            <div class="yellow-ball"></div>
+            <div class="Red-ball"></div>
+            <div class="yellow-ball"></div>
+            <div class="Red-ball"></div>
+            <div class="yellow-ball"></div>
+            <div class="Red-ball"></div>
+            <div class="yellow-ball"></div>
+            <div class="Red-ball"></div>
+            <div class="yellow-ball"></div>
+            <div class="Red-ball"></div>
+        </div>
+
+        <nav class="navigation-bar">
+            <a href="Shop/reviews.html" class="nav-item"> SHOP </a>
+            <div class="separator"></div>
+            <a href="Myprofile/reviews.html" class="nav-item"> My Profile</a>
+            <div class="separator"></div>
+            <a href="Shoppingcar/cinema/reviews.html" class="nav-item">Shopping cart</a>
+            <div class="separator"></div>
+        </nav>
+        <h1 id="siBack"> FIND ALL KINDS OF GAMES HERE!</h1>
+        <h4 id="BrowButton"> Browse our catalogue here!</h4>
+
+        <div class="container">
+    		<div class="ImagenPep">
+        	<a target="_blank" href="Pizza.jpg">
+            <img src="Pizza.jpg" alt="Peppino" width="400" height="600">
+       		</a>
+	        <div class="desc">The Game Of the Moment - BUY IT NOW!</div>
+	    	</div>
+	    	<div class="ImagenFin">
+	        <a target="_blank" href="TheFinals.jpg">
+            <img src="TheFinals.jpg" alt="CharacFinals" width="400" height="600">
+        	</a>
+        <div class="desc">Most players also recommend - The Finals! - For Free!</div>
+    	</div>
+		</div>
+        <div class="Artic">
+            <article>
+                <figure>
+                    <figcaption> This is the space for gamers made by gamers!</figcaption>
+                </figure>
+                <h2> ENJOY THIS PLACE</h2>
+                <h3> READ</h3>
+                <p> Probably you will see some places where you can find a large storage of games. However, this is one of the greatest where all your favorite developers may gather to exchange valuable feedback on their recent creations.</p>
+            </article>
+        </div>
+
+    </header>
+</body>
+
+</html>

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.0/css/bootstrap.min.css" rel="stylesheet">
+    <title>My Profile</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    <style> 
+        body {
+            background-color: #4C1A57; 
+            font-family: "Audiowide", sans-serif;
+        }
+
+        #Image{
+            border-radius: 10px;
+        }
+        .ball-con {
+            display: flex;
+            justify-content: center;
+        }
+
+        .Red-ball,
+        .yellow-ball {
+            display: flex;
+            width: 20px;
+            height: 20px;
+            background-color: darkred;
+            border-radius: 50%;
+            margin-right: 15px;
+        }
+
+        .yellow-ball {
+            background-color: yellow;
+        }
+
+
+        .container {
+            display: relative;
+        }
+
+        .vertical-rectangle {
+            width: 90%; 
+            max-width: 700px; 
+            height: 1200px;
+            left: 50%; 
+            transform: translateX(-50%);
+            background-color: purple;
+            position: relative;
+            border: 10px solid #F51AA4;
+            	}
+
+        .inner {
+            display: flex;
+            justify-content: center; 
+            align-items: center; 
+            border: 2px solid #9D44B5;
+            height: 120px;
+            width: 100%; 
+            border-radius: 20px;
+            overflow: hidden; 
+            background-color: #441151;
+        }
+		.inner img {
+            width: auto;
+            height: 100px;
+            border-radius: 20px;
+            	}
+        .contentfordescrip {
+            display: flex;
+          	border: 3px solid #FF9000;
+            height: 950px;
+            width: 50%; 
+            border-radius: 20px;
+            overflow: hidden; 
+            margin-top: 30px;
+        	}
+        .textindesc {
+        	margin-top: 10px;
+        }
+
+       
+
+        .SeccontentDesc {
+        	display: flex;
+        	position: absolute;
+        	height: 500px;
+           	top: 157px;
+            left: 60%;
+            align-items: center;
+            border: 3px solid #FF9000;
+            width: 30%;
+            border-radius: 20px;
+        }
+
+
+
+        .text {
+            margin: 0;
+            font-size: 16px;
+            padding: 10px;
+            color: yellow;
+            font-size: 20px;
+        }
+
+        .textfortitles {
+            margin: 0;
+            font-size: 16px;
+            padding: 10px;
+            color: yellow;
+            font-size: 15px;
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+<body>
+    <p style="color: #7F0799; text-align:center;">CHECK YOUR STATISTICS ON OUR WEBPAGE!</p>
+    <div class="container">
+        <div class="vertical-rectangle">
+        	<div class="inner"> 
+            	<img src="WaterDog.jpg" alt="WaterMelonDog" width="100%" height="100px"><p class="text">SpecialEarnings</p>
+   			</div>
+        
+
+   	<!--First Column-->
+
+    <div class="container">
+        <div class="contentfordescrip">
+            <div class="textindesc"><h1 class="textfortitles">Player Info</h1>
+            <div class="ball-con">
+            	<div class="yellow-ball"></div>
+	            <div class="Red-ball"></div>
+	            <div class="yellow-ball"></div>
+	            <div class="Red-ball"></div>
+	            <div class="yellow-ball"></div>
+	            <div class="Red-ball"></div>
+	            <div class="yellow-ball"></div>
+	        </div>
+	        <p class="text" style="padding-right: 8px;font-size: 12px;">HOURS SPENT: 80HRS</p>
+	        <img src="TheFinals.jpg" style="margin-top: 40px;margin-left:20px;border: 3px solid;#4B244A" id="Image" alt="TheFinals"width="80" height="80"><p class="text" style="padding:30px;font-size: 17px;">41/50 achievements</p>
+	        <img src="Supermario.jpg" style="margin-top: 30px;margin-left:20px;border: 3px solid;#4B244A" id="Image" alt="TheFinals"width="80" height="80"><p class="text" style="padding:20px;font-size: 17px;">Achievements Completed</p>
+	        <img src="Company.jpg" style="margin-top: 30px;margin-left:20px;border: 3px solid;#4B244A" id="Image" alt="TheFinals"width="80" height="80"><p class="text" style="padding:20px;font-size: 17px;">Not Played Yet</p>
+	        <img src="Ring.jpg" style="margin-top: 30px;margin-left:20px;border: 3px solid;#4B244A" id="Image" alt="TheFinals"width="80" height="80"><p class="text" style="padding:20px;font-size: 17px;">Achievements Completed</p>
+            
+	    </div>
+	   </div>
+          
+    <!-- Second Column -->
+      <div class="container">
+        <div class="SeccontentDesc">
+            <div class="textindesc"><h1 class="textfortitles" style="margin-top:-100px; color: #D16014">Friends List</h1>
+            	<h1 class="textfortitles" style="padding:20px;font-size: 17px; color: #82FF9E;">Jervitas</h1></li>
+            	<h1 class="textfortitles"style="padding:20px;font-size: 17px;">Rigs09</h1></li>
+            	<h1 class="textfortitles"style="padding:20px;font-size: 17px;">Juantn</h1></li>
+            	<h1 class="textfortitles"style="padding:20px;font-size: 17px; color: #82FF9E;">Rubius</h1></li>
+            	<h1 class="textfortitles"style="padding:20px;font-size: 17px;">Naty</h1></li>
+            	<h1 class="textfortitles"style="padding:20px;font-size: 17px; color: #82FF9E;">Pieces</h1></li>
+        	 </div>
+         </div>
+
+          
+</body>
+</html>
